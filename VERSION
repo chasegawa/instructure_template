@@ -1,0 +1,3 @@
+REGISTRY=docker.dev.ccctechcenter.org
+IMAGE_NAME=sample-service
+VERSION=1.0.0-SNAPSHOT

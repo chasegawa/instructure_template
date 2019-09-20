@@ -1,0 +1,7 @@
+sample:
+  image: docker.dev.ccctechcenter.org/sample-service:1.0.0-SNAPSHOT
+  container_name: sample
+  volumes:
+    - ~/docker/containers/creds:/opt/ccc/config
+  ports:
+    - 8080:8080
